@@ -1,1 +1,2 @@
-Hello World!
+echo "Hello World!"
+echo "I am running successfully!"
