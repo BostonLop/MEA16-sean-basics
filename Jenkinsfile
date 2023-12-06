@@ -32,7 +32,7 @@ pipeline {
     }
         post {
             always {
-                archiveartifacts '*.zip'
+                archiveArtifacts '*.zip'
             }
 
         }
