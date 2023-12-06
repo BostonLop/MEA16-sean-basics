@@ -28,9 +28,7 @@ pipeline {
                 sh ./run.sh
                 '''
             }
-
         }
-
     }
         post {
             always {
