@@ -31,13 +31,13 @@ pipeline {
 
         }
 
+    }
+
         post {
             always {
                 archiveartifacts '*.zip'
             }
 
         }
-
-    }
 
 }
